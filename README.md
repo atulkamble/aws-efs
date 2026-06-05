@@ -1,4 +1,4 @@
-# AWS EFS (Elastic File System) Practice Lab – Important Points to Remember
+# AWS EFS (Elastic File System) Lab 
 
 ## Key Exam & Interview Points
 
@@ -403,20 +403,12 @@ Kubernetes        : EFS CSI Driver
 
 ## Production Best Practices
 
-✅ Enable encryption at rest and in transit
-
-✅ Create Mount Targets in every AZ
-
-✅ Use Elastic Throughput
-
-✅ Enable AWS Backup
-
-✅ Use Lifecycle Policies (Standard → IA → Archive)
-
-✅ Use Security Group references instead of CIDR ranges
-
-✅ Monitor using Amazon CloudWatch
-
-✅ Use IAM + EFS Access Points for application-level access control
-
-✅ Mount EFS using TLS (`-o tls`) in production environments.
+- ✅ Enable encryption at rest and in transit
+- ✅ Create Mount Targets in every AZ
+- ✅ Use Elastic Throughput
+- ✅ Enable AWS Backup
+- ✅ Use Lifecycle Policies (Standard → IA → Archive)
+- ✅ Use Security Group references instead of CIDR ranges
+- ✅ Monitor using Amazon CloudWatch
+- ✅ Use IAM + EFS Access Points for application-level access control
+- ✅ Mount EFS using TLS (`-o tls`) in production environments.
